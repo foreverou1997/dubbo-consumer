@@ -1,0 +1,13 @@
+server:
+  port: 8086
+
+
+dubbo:
+  application:
+    name: consumer
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: 39.105.161.6:2181
+    protocol: zookeeper
